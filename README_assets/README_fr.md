@@ -59,23 +59,24 @@ Parcourez les 9 générations de Pokémon et cliquez sur votre génération pré
 L'application présente également un bouton en bas pour voir les crédits et les droits.
 
 <p float="left">
-![Sélection de la génération](/README_assets//to/gen_choice.jpg)
-![Informations légales](/README_assets//to/legal.jpg)
-</p>
+
+<img src="/README_assets/gen_choice.jpg" alt="list" style="width:250px;"/>
+
+<img src="/README_assets/legal.jpg" alt="list" style="width:250px;"/>
 
 ### Écran de liste des Pokémon
 
 Consultez une liste complète des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
 
-![Liste des Pokémon](/README_assets//to/pokemons_list_view.jpg)
+<img src="/README_assets/pokemon_list_view.jpg" alt="list" style="width:250px;"/>
 
 ### Écran de détails des Pokémon
 
-Affichez un Pokémon spécifique avec des informations détaillées. Basculez entre les sprites normaux et chromatiques avec le bouton ✨. Explorez la chaîne d'évolution du Pokémon en cliquant sur chaque évolution.
+Affichez un Pokémon spécifique avec des informations détaillées. Basculez entre les sprites normaux et shiny avec le bouton ✨. Explorez la chaîne d'évolution du Pokémon en cliquant sur chaque évolution.
 
-![Détails du Pokémon 1](/README_assets//to/details_1.jpg)
-![Détails du Pokémon 2](/README_assets//to/details_2.jpg)
-![Détails du Pokémon 3](/README_assets//to/details_3.jpg)
+<img src="/README_assets/p_1.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_2.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_3.jpg.jpg" alt="list" style="width:250px;"/>
 
 ## Fonctionnalités à venir 🚧
 

@@ -56,22 +56,27 @@ To experience the world of Pokémon, run the app on a simulator or a real iOS de
 
 Browse through the 9 generations of Pokémon and click on your preferred generation to explore the Pokémon within. The app also provides a button to view credits and rights.
 
-![Generation Selection](/README_assets//to/gen_choice.jpg)
-![Legal Information](/README_assets//to/legal.jpg)
+<p float="left">
+
+<img src="/README_assets/gen_choice.jpg" alt="list" style="width:250px;"/>
+
+<img src="/README_assets/legal.jpg" alt="list" style="width:250px;"/>
+
+</p>
 
 ### Pokémon List Screen
 
 View a comprehensive list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information.
 
-![Pokémon List](/README_assets//to/pokemons_list_view.jpg)
+<img src="/README_assets/pokemon_list_view.jpg" alt="list" style="width:250px;"/>
 
 ### Pokémon Details Screen
 
 Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution.
 
-![Pokémon Details 1](/README_assets//to/details_1.jpg)
-![Pokémon Details 2](/README_assets//to/details_2.jpg)
-![Pokémon Details 3](/README_assets//to/details_3.jpg)
+<img src="/README_assets/p_1.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_2.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_3.jpg.jpg" alt="list" style="width:250px;"/>
 
 ## Upcoming Features 🚧
 
