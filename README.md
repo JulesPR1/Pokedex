@@ -36,8 +36,13 @@ To use this application, you need to run it on a simulator or on a real device w
 This screen displays all the 9 generations of pokemons, you can click on one of them to display all the pokemons of this generation.
 
 There is also a button at the bottom of the screen to display all the credits and rights of the application.
+<p float="left">
 
 <img src="/README screenshots/gen_choice.jpg" alt="gen_choice" style="width:250px;"/>
+
+<img src="/README screenshots/legal.jpg" alt="legal" style="width:250px;"/>
+
+</p>
 
 ### Pokemon List screen
 
@@ -51,7 +56,7 @@ This screen displays all pokemon details, you can click the ✨ buttons to displ
 
 <img src="/README screenshots/p_1.jpg" alt="details_1" style="width:250px;"/>
 <img src="/README screenshots/p_2.jpg" alt="details_2" style="width:250px;"/>
-<img src="/README screenshots/p_2.jpg" alt="details_3" style="width:250px;"/>
+<img src="/README screenshots/p_3.jpg" alt="details_3" style="width:250px;"/>
 
 
 ## Incoming features
