@@ -58,9 +58,9 @@ Browse through the 9 generations of Pokémon and click on your preferred generat
 
 <p float="left">
 
-<img src="/README_assets/gen_choice.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/gen_choice.jpg" alt="gen" style="width:250px;"/>
 
-<img src="/README_assets/legal.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/legal.jpg" alt="legal" style="width:250px;"/>
 
 </p>
 
@@ -74,9 +74,9 @@ View a comprehensive list of Pokémon from the selected generation. Tap on a Pok
 
 Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution.
 
-<img src="/README_assets/p_1.jpg.jpg" alt="list" style="width:250px;"/>
-<img src="/README_assets/p_2.jpg.jpg" alt="list" style="width:250px;"/>
-<img src="/README_assets/p_3.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_1.jpg.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_2.jpg.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_3.jpg.jpg" alt="details" style="width:250px;"/>
 
 ## Upcoming Features 🚧
 
