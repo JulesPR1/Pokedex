@@ -74,7 +74,7 @@ Consultez une liste complète des Pokémon de la génération sélectionnée. Ap
 
 ### Écran de détails des Pokémon
 
-Affichez un Pokémon spécifique avec des informations détaillées. Basculez entre les sprites normaux et shiny avec le bouton ✨. Explorez la chaîne d'évolution du Pokémon en cliquant sur chaque évolution.
+Affichez un Pokémon spécifique avec des informations détaillées. Basculez entre les sprites normaux et shiny avec le bouton ✨. Explorez la chaîne d'évolution du Pokémon en cliquant sur chaque évolution. Le background de l'image du Pokémon est défini automatiquement en fonction de ses types.
 
 <img src="/README_assets/p_1.jpg" alt="list" style="width:250px;"/>
 <img src="/README_assets/p_2.jpg" alt="list" style="width:250px;"/>

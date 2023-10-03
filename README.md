@@ -72,7 +72,7 @@ View a comprehensive list of Pokémon from the selected generation. Tap on a Pok
 
 ### Pokémon Details Screen
 
-Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution.
+Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution. The background of the Pokémon's image is automatically determined based on its types.
 
 <img src="/README_assets/p_1.jpg" alt="details" style="width:250px;"/>
 <img src="/README_assets/p_2.jpg" alt="details" style="width:250px;"/>
