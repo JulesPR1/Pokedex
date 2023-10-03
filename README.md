@@ -37,21 +37,21 @@ This screen displays all the 9 generations of pokemons, you can click on one of 
 
 There is also a button at the bottom of the screen to display all the credits and rights of the application.
 
-<img src="/README screenshots/gen_choice.jpg" alt="gen_choice" style="width:200px;"/>
+<img src="/README screenshots/gen_choice.jpg" alt="gen_choice" style="width:250px;"/>
 
 ### Pokemon List screen
 
 This screen displays all the pokemons of the choosen generation. You can click on a pokemon to display its details.
 
->![list](/README%20screenshots/pokemons_list_view.jpg)
+<img src="/README screenshots/pokemons_list_view.jpg" alt="pokemons_list" style="width:250px;"/>
 
 ### Pokemon details screen
 
 This screen displays all pokemon details, you can click the ✨ buttons to display shiny (alternatives colors of the pokemon) sprites. You also can click on every evolutions to display their details.
 
->![details 1](/README%20screenshots/p_1.jpg)
->![details 2](/README%20screenshots/p_2.jpg)
->![details 3](/README%20screenshots/p_3.jpg)
+<img src="/README screenshots/p_1.jpg" alt="details_1" style="width:250px;"/>
+<img src="/README screenshots/p_2.jpg" alt="details_2" style="width:250px;"/>
+<img src="/README screenshots/p_2.jpg" alt="details_3" style="width:250px;"/>
 
 
 ## Incoming features
