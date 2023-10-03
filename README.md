@@ -1,8 +1,14 @@
 # Pokédex iOS App 📱
 
+Choose language :
+<br>
+<font size="20">
+[🇬🇧](/README.md) - [🇫🇷](/README_assets/README_fr.md) - [🇯🇵](/README_assets/README_ja.md)
+</font>
+
 ## Introduction 🧑‍💻
 
-Pokédex is your ultimate companion for exploring the world of Pokémon! This iOS application, powered by the [PokéAPI](https://api-pokemon-fr.vercel.app/), serves as a comprehensive Pokédex, providing detailed information about Pokémon across all 9 generations. Dive into the world of Pokémon with this intuitive and beautifully designed app.
+This iOS application, powered by the [PokéAPI](https://api-pokemon-fr.vercel.app/), serves as a comprehensive Pokédex, providing detailed information about Pokémon across all 9 generations. Dive into the world of Pokémon with this intuitive and beautifully designed app.
 
 ## Features 🧩
 
@@ -50,22 +56,22 @@ To experience the world of Pokémon, run the app on a simulator or a real iOS de
 
 Browse through the 9 generations of Pokémon and click on your preferred generation to explore the Pokémon within. The app also provides a button to view credits and rights.
 
-![Generation Selection](/path/to/gen_choice.jpg)
-![Legal Information](/path/to/legal.jpg)
+![Generation Selection](/README_assets//to/gen_choice.jpg)
+![Legal Information](/README_assets//to/legal.jpg)
 
 ### Pokémon List Screen
 
 View a comprehensive list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information.
 
-![Pokémon List](/path/to/pokemons_list_view.jpg)
+![Pokémon List](/README_assets//to/pokemons_list_view.jpg)
 
 ### Pokémon Details Screen
 
 Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution.
 
-![Pokémon Details 1](/path/to/details_1.jpg)
-![Pokémon Details 2](/path/to/details_2.jpg)
-![Pokémon Details 3](/path/to/details_3.jpg)
+![Pokémon Details 1](/README_assets//to/details_1.jpg)
+![Pokémon Details 2](/README_assets//to/details_2.jpg)
+![Pokémon Details 3](/README_assets//to/details_3.jpg)
 
 ## Upcoming Features 🚧
 
