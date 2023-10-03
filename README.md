@@ -80,7 +80,7 @@ Show a specific Pokémon with detailed information. Toggle between regular and s
 
 ## Upcoming Features 🚧
 
-We are continually working to enhance your Pokédex experience. Look forward to these upcoming features:
+I am still working on this app. Look forward to these upcoming features:
 
 - **Search Functionality:** Easily search for specific Pokémon by name or number. 🔍
   
