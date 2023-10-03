@@ -2,7 +2,7 @@
 
 Choose language :
 <br>
-<font size="20">
+<font size="40">
 [🇬🇧](/README.md) - [🇫🇷](/README_assets/README_fr.md) - [🇯🇵](/README_assets/README_ja.md)
 </font>
 
