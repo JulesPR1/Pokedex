@@ -64,6 +64,8 @@ L'application présente également un bouton en bas pour voir les crédits et le
 
 <img src="/README_assets/legal.jpg" alt="list" style="width:250px;"/>
 
+</p>
+
 ### Écran de liste des Pokémon
 
 Consultez une liste complète des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
