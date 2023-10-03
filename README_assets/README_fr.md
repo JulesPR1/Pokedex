@@ -70,15 +70,15 @@ L'application présente également un bouton en bas pour voir les crédits et le
 
 Consultez une liste complète des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
 
-<img src="/README_assets/pokemon_list_view.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/pokemons_list_view.jpg" alt="list" style="width:250px;"/>
 
 ### Écran de détails des Pokémon
 
 Affichez un Pokémon spécifique avec des informations détaillées. Basculez entre les sprites normaux et shiny avec le bouton ✨. Explorez la chaîne d'évolution du Pokémon en cliquant sur chaque évolution.
 
-<img src="/README_assets/p_1.jpg.jpg" alt="list" style="width:250px;"/>
-<img src="/README_assets/p_2.jpg.jpg" alt="list" style="width:250px;"/>
-<img src="/README_assets/p_3.jpg.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_1.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_2.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/p_3.jpg" alt="list" style="width:250px;"/>
 
 ## Fonctionnalités à venir 🚧
 
