@@ -37,7 +37,7 @@ This screen displays all the 9 generations of pokemons, you can click on one of 
 
 There is also a button at the bottom of the screen to display all the credits and rights of the application.
 
->![gen_choice](/README%20screenshots/gen_choice.jpg)
+<img src="/README screenshots/gen_choice.jpg" alt="gen_choice" style="width:200px;"/>
 
 ### Pokemon List screen
 
