@@ -29,8 +29,10 @@ struct PokemonDetails: View {
     var evolution_columns: [GridItem] {
         var columns: [GridItem] = []
         
-        for _ in 0..<pokemons.count {
-            columns.append(GridItem(.flexible(minimum: 0, maximum: .infinity)))
+        for i in 0..<pokemons.count {
+            if i < 4 {
+                columns.append(GridItem(.flexible(minimum: 0, maximum: .infinity)))
+            }
         }
         
         return columns
