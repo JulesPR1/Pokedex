@@ -56,7 +56,7 @@
 
 ### ポケモンの世代選択画面
 
-9世代のポケモンを閲覧し、好きな世代をクリックしてその中のポケモンを探索できます。アプリはクレジットと権利を表示するためのボタンも提供しています。
+9世代のポケモンを閲覧し、好きな世代をクリックしてその中のポケモンを探索できます。アプリはクレジットと権利を表示するためのボタンも提供しています。フィルターが利用可能です！
 
 <p float="left">
 
@@ -70,7 +70,13 @@
 
 選択した世代のポケモンの包括的なリストを表示します。ポケモンをタップして詳細情報にアクセスできます。
 
-<img src="/README_assets/pokemons_list_view.jpg" alt="list" style="width:250px;"/>
+<p float="left">
+
+<img src="/README_assets/list.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/list_2.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/list_3.jpg" alt="list" style="width:250px;"/>
+
+</p>
 
 ### ポケモンの詳細画面
 
