@@ -16,6 +16,8 @@ L'application iOS Pokédex propose des fonctionnalités pour enrichir votre aven
 
 - **Base de données Pokémon complète :** Explorez tous les Pokémon de la première à la neuvième génération.
 
+- **Filtres :** Filtrer par nom et type.
+
 - **Informations détaillées sur les Pokémon :** Accédez à des détails approfondis pour chaque Pokémon, y compris les sprites, les types, les capacités, les statistiques, les résistances, les faiblesses et les évolution.
 
 - **Variantes Pokémon chromatiques :** Affichez les versions shiny des Pokémon d'un simple toucher.
@@ -83,10 +85,6 @@ Affichez un Pokémon spécifique avec des informations détaillées. Basculez en
 ## Fonctionnalités à venir 🚧
 
 Je travail pour améliorer le Pokédex. Attendez-vous à ces fonctionnalités à venir :
-
-- **Fonction de recherche :** Recherchez facilement des Pokémon spécifiques par nom ou numéro. 🔍
-
-- **Filtres par type :** Filtrez les Pokémon en fonction de leurs types pour une navigation efficace. 🧪
 
 - **Pokémons favoris :** Enregistrez vos Pokémon préférés pour un accès rapide. ⭐
 

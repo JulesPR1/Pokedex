@@ -281,4 +281,9 @@ extension Pokemon {
         
         return Gradient(colors: colors)
     }
+    
+    static func get_types() -> [String] {
+        ["Tous", "Normal", "Plante", "Feu", "Eau", "Électrik", "Glace", "Combat", "Poison", "Sol", "Vol", "Psy", "Insecte", "Roche", "Spectre", "Dragon", "Ténèbres", "Acier", "Fée"]
+    }
+    
 }

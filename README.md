@@ -15,6 +15,8 @@ This iOS application, powered by the [PokéAPI](https://api-pokemon-fr.vercel.ap
 Pokédex iOS app offers some features to enhance your Pokémon journey:
 
 - **Comprehensive Pokémon Database:** Explore all Pokémon from the first to the ninth generation.
+
+- **Filters:** Filter by name and type.
   
 - **Detailed Pokémon Information:** Access extensive details for each Pokémon, including sprites, types, abilities, stats, resistances, weaknesses, and evolution chains.
 
@@ -81,10 +83,6 @@ Show a specific Pokémon with detailed information. Toggle between regular and s
 ## Upcoming Features 🚧
 
 I am still working on this app. Look forward to these upcoming features:
-
-- **Search Functionality:** Easily search for specific Pokémon by name or number. 🔍
-  
-- **Type Filters:** Filter Pokémon based on their types for efficient browsing. 🧪
 
 - **Favorites Pokémons:** Save your favorite Pokémon for quick access. ⭐
   

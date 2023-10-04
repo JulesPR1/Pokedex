@@ -5,29 +5,72 @@ struct PokemonListView: View {
     @State private var pokemons: [Pokemon] = []
     @State var generation: Int
     @State private var pokemons_loading = true
+    @State private var searchText = ""
+    @State private var filteredPokemons: [Pokemon] = []
+
+    let pokemon_types = Pokemon.get_types()
+    @State private var selectedPokemonTypeIndex = 0
+    @State private var selectedPokemonType: String = ""
+    
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: [
-                GridItem(.flexible(minimum: 0, maximum: .infinity)),
-                GridItem(.flexible(minimum: 0, maximum: .infinity))
-            ], spacing: 16) {
-                ForEach(pokemons, id: \.pokedexId) { pokemon in
-                    PokemonCardView(pokemon: pokemon, pokemons: pokemons)
+        VStack {
+            TextField("Recherche par nom ou PokedexID", text: $searchText)
+                .padding(.horizontal)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .onChange(of: searchText) { newValue in
+                    filteredPokemons = pokemons.filter {
+                        $0.name.fr.lowercased().contains(newValue.lowercased()) ||
+                        "\($0.pokedexId)".contains(newValue)
+                    }
+                }
+        
+        
+
+            Picker("Trier par type", selection: $selectedPokemonTypeIndex) {
+                ForEach(0..<pokemon_types.count, id: \.self) {
+                    Text(pokemon_types[$0]).tag($0)
                 }
             }
-            .padding()
-            .navigationTitle("Génération \(generation)")
-        }.onAppear {
-            loadPokemons(generation: generation)
-            pokemons_loading = false
-        }.overlay {
-            if pokemons_loading {
-                ProgressView().frame(width: 200, height: 200)
+            .frame(width: 200)
+            .pickerStyle(MenuPickerStyle())
+            .foregroundColor(.black)
+            .onChange(of: selectedPokemonTypeIndex) { newValue in
+                let selectedType = pokemon_types[newValue]
+                if newValue == 0 {
+                    filteredPokemons = pokemons
+                }else{
+                    filteredPokemons = pokemons.filter { pokemon in
+                        pokemon.types.contains { type in
+                            type.name.lowercased().contains(selectedType.lowercased())
+                        }
+                    }
+                }
             }
+            
+            ScrollView {
+                LazyVGrid(columns: [
+                    GridItem(.flexible(minimum: 0, maximum: .infinity)),
+                    GridItem(.flexible(minimum: 0, maximum: .infinity))
+                ], spacing: 16) {
+                    ForEach(filteredPokemons.isEmpty ? pokemons : filteredPokemons, id: \.pokedexId) { pokemon in
+                        PokemonCardView(pokemon: pokemon, pokemons: pokemons)
+                    }
+                }
+                .padding()
+                .navigationTitle("Génération \(generation)")
+            }.overlay {
+                if pokemons_loading {
+                    ProgressView().frame(width: 200, height: 200)
+                }
+            }
+            }.onAppear {
+                loadPokemons(generation: generation)
+                pokemons_loading = false
         }
-
     }
+
 
     struct PokemonCardView: View {
         let pokemon: Pokemon
