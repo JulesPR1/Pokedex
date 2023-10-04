@@ -68,7 +68,7 @@ Browse through the 9 generations of Pokémon and click on your preferred generat
 
 ### Pokémon List Screen
 
-View a comprehensive list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information.
+Consult a complete and filterable list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information.
 
 <p float="left">
 

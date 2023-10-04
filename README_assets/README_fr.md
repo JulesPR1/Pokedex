@@ -70,7 +70,7 @@ L'application présente également un bouton en bas pour voir les crédits et le
 
 ### Écran de liste des Pokémon
 
-Consultez une liste complète des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
+Consultez une liste complète et filtrable des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
 
 <p float="left">
 
