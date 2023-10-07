@@ -199,6 +199,7 @@ struct PokemonDetails: View {
                             Spacer()
                             KFImage(URL(string: type.image))
                                 .resizable()
+                                .loadImmediately()
                                 .frame(width: 30, height: 30)
                                 .scaledToFit()
                                 .frame(height: 30)

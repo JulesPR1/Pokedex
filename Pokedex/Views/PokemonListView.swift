@@ -96,6 +96,7 @@ struct PokemonListView: View {
                         }
                     //.forceRefresh(true) // for tests only
                         .resizable()
+                        .loadImmediately()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 100, height: 100)
                         .overlay {
