@@ -56,7 +56,7 @@ To experience the world of Pokémon, run the app on a simulator or a real iOS de
 
 ### Pokémon Generation Selection Screen
 
-Browse through the 9 generations of Pokémon and click on your preferred generation to explore the Pokémon within. The app also provides a button to view credits and rights. Filters are now available !
+Browse through the 9 generations of Pokémon and click on your preferred generation to explore the Pokémon within. The app also provides a button to view credits and rights.
 
 <p float="left">
 
@@ -68,7 +68,7 @@ Browse through the 9 generations of Pokémon and click on your preferred generat
 
 ### Pokémon List Screen
 
-Consult a complete and filterable list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information.
+Consult a complete and filterable list of Pokémon from the selected generation. Tap on a Pokémon to access its detailed information. Filter the list by name and type. 
 
 <p float="left">
 

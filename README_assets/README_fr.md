@@ -58,7 +58,7 @@ Pour découvrir le monde des Pokémon, exécutez l'application sur un simulateur
 
 Parcourez les 9 générations de Pokémon et cliquez sur votre génération préférée pour voir tous les Pokémons exclusifs à cette génération.
 
-L'application présente également un bouton en bas pour voir les crédits et les droits. Les filtres sont désormais disponibles !
+L'application présente également un bouton en bas pour voir les crédits et les droits.
 
 <p float="left">
 
@@ -70,7 +70,7 @@ L'application présente également un bouton en bas pour voir les crédits et le
 
 ### Écran de liste des Pokémon
 
-Consultez une liste complète et filtrable des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées.
+Consultez une liste complète et filtrable des Pokémon de la génération sélectionnée. Appuyez sur un Pokémon pour accéder à ses informations détaillées. Filtrez la liste par nom et type.
 
 <p float="left">
 
