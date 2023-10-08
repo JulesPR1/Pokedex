@@ -13,7 +13,16 @@ struct PokemonListView: View {
     @State private var selectedPokemonType: String = ""
     
     @Environment(\.colorScheme) var colorScheme
-
+        
+    var gridItems: [GridItem]{
+        var gridItems: [GridItem] = []
+        for _ in 0..<(UIDevice.current.orientation.isPortrait ? 2 : 4) {
+            gridItems.append(GridItem(.flexible(minimum: 0, maximum: .infinity)))
+        }
+        
+        return gridItems
+    }
+    
     var body: some View {
         VStack {
             TextField("Recherche par nom ou PokedexID", text: $searchText)
@@ -50,10 +59,7 @@ struct PokemonListView: View {
             }
             
             ScrollView {
-                LazyVGrid(columns: [
-                    GridItem(.flexible(minimum: 0, maximum: .infinity)),
-                    GridItem(.flexible(minimum: 0, maximum: .infinity))
-                ], spacing: 16) {
+                LazyVGrid(columns: gridItems, spacing: 16) {
                     ForEach(filteredPokemons.isEmpty ? pokemons : filteredPokemons, id: \.pokedexId) { pokemon in
                         PokemonCardView(pokemon: pokemon, pokemons: pokemons)
                     }
@@ -116,6 +122,10 @@ struct PokemonListView: View {
                 .frame(width: 160)
                 .background(colorScheme == .dark ? Color(hex: 0x35363a) : Color(hex: 0xf6f6f6))
                 .cornerRadius(10)
+                .overlay(
+                        RoundedRectangle(cornerRadius: 16)
+                            .stroke(pokemon.get_gradient(), lineWidth: 4)
+                    )
                 .overlay(types_badge.alignmentGuide(.leading) { _ in -10 }.alignmentGuide(.top) { _ in -10}, alignment: .topLeading)
             }.shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.33), radius: 2, x: 0, y: 1.5)
         }
