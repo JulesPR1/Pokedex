@@ -52,6 +52,10 @@ Follow these steps to install the Pokédex iOS app on your device:
 
 To experience the world of Pokémon, run the app on a simulator or a real iOS device with version 16.4 or higher.
 
+## Global demo 📲
+
+<img src="/README_assets/demo.gif" alt="gen" style="width:250px;"/>
+
 ## Screenshots
 
 ### Pokémon Generation Selection Screen
@@ -72,7 +76,7 @@ Consult a complete and filterable list of Pokémon from the selected generation.
 
 <p float="left">
 
-<img src="/README_assets/list.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/list_1.png" alt="list" style="width:250px;"/>
 <img src="/README_assets/list_2.jpg" alt="list" style="width:250px;"/>
 <img src="/README_assets/list_3.jpg" alt="list" style="width:250px;"/>
 
