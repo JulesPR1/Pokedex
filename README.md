@@ -44,7 +44,7 @@ Follow these steps to install the Pokédex iOS app on your device:
 
 ## Usage 🎮
 
-To experience the world of Pokémon, run the app on a simulator or a real iOS device with version 16.4 or higher.
+To experience the world of Pokémon, run the app on a simulator or a real iOS device with version 17 or higher.
 
 ## Global demo 📲
 
