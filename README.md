@@ -70,9 +70,9 @@ Consult a complete and filterable list of Pokémon from the selected generation.
 
 <p float="left">
 
-<img src="/README_assets/list_1.png" alt="list" style="width:250px;"/>
-<img src="/README_assets/list_2.jpg" alt="list" style="width:250px;"/>
-<img src="/README_assets/list_3.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/pokemon_list_1.png" alt="list" style="width:250px;"/>
+<img src="/README_assets/pokemon_list_2.jpg" alt="list" style="width:250px;"/>
+<img src="/README_assets/pokemon_list_3.jpg" alt="list" style="width:250px;"/>
 
 </p>
 
