@@ -48,7 +48,7 @@ To experience the world of Pokémon, run the app on a simulator or a real iOS de
 
 ## Global demo 📲
 
-![](/README_assets/demo.mov)
+<img src="/README_assets/demo.gif" alt="gen" style="width:250px;"/>
 
 ## Screenshots
 
