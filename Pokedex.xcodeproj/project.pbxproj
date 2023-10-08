@@ -14,6 +14,7 @@
 		13927B9E2ABC66300006F247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13927B9D2ABC66300006F247 /* Assets.xcassets */; };
 		13927BA12ABC66300006F247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13927BA02ABC66300006F247 /* Preview Assets.xcassets */; };
 		13927BA82ABC68AD0006F247 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13927BA72ABC68AD0006F247 /* Pokemon.swift */; };
+		13B689B82AD2DF5F00C0AABA /* GraphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B689B72AD2DF5F00C0AABA /* GraphType.swift */; };
 		13F8EF6A2AC0AEE000669BB8 /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8EF692AC0AEE000669BB8 /* PokemonDetails.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		13927B9D2ABC66300006F247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13927BA02ABC66300006F247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13927BA72ABC68AD0006F247 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		13B689B72AD2DF5F00C0AABA /* GraphType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphType.swift; sourceTree = "<group>"; };
 		13B9CFF02AC196970079118C /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B9CFF82AC197040079118C /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F8EF692AC0AEE000669BB8 /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
@@ -66,9 +68,9 @@
 		13927B982ABC662F0006F247 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				13F47C282AC3091B00339AD7 /* Extensions */,
-				13F47C272AC308E500339AD7 /* Views */,
-				13F47C262AC308C100339AD7 /* Models */,
+				13F47C282AC3091B00339AD7 /* Extension */,
+				13F47C272AC308E500339AD7 /* View */,
+				13F47C262AC308C100339AD7 /* Model */,
 				13927B992ABC662F0006F247 /* PokedexApp.swift */,
 				13927B9D2ABC66300006F247 /* Assets.xcassets */,
 				13927B9F2ABC66300006F247 /* Preview Content */,
@@ -84,30 +86,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		13F47C262AC308C100339AD7 /* Models */ = {
+		13F47C262AC308C100339AD7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				13927BA72ABC68AD0006F247 /* Pokemon.swift */,
+				13B689B72AD2DF5F00C0AABA /* GraphType.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		13F47C272AC308E500339AD7 /* Views */ = {
+		13F47C272AC308E500339AD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				130A435F2ABC902300DE2D2D /* GenSelectionView.swift */,
 				13927B9B2ABC662F0006F247 /* PokemonListView.swift */,
 				13F8EF692AC0AEE000669BB8 /* PokemonDetails.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
-		13F47C282AC3091B00339AD7 /* Extensions */ = {
+		13F47C282AC3091B00339AD7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				131A75732AC215D800C532DF /* Extensions.swift */,
 			);
-			path = Extensions;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8C27389EF5FB6C0BA301E5FC /* Pods */ = {
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130A43602ABC902300DE2D2D /* GenSelectionView.swift in Sources */,
+				13B689B82AD2DF5F00C0AABA /* GraphType.swift in Sources */,
 				131A75742AC215D800C532DF /* Extensions.swift in Sources */,
 				13927B9C2ABC662F0006F247 /* PokemonListView.swift in Sources */,
 				13927B9A2ABC662F0006F247 /* PokedexApp.swift in Sources */,
@@ -387,7 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +424,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
