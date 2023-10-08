@@ -84,7 +84,8 @@ Show a specific Pokémon with detailed information. Toggle between regular and s
 
 <img src="/README_assets/p_1.jpg" alt="details" style="width:250px;"/>
 <img src="/README_assets/p_2.jpg" alt="details" style="width:250px;"/>
-<img src="/README_assets/p_3.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_3.gif" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_4.jpg" alt="details" style="width:250px;"/>
 
 ## Upcoming Features 🚧
 
