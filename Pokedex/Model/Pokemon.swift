@@ -14,7 +14,7 @@ struct Pokemon: Codable {
     let height: String
     let weight: String
     let catch_rate: Int?
-    let sex: Sex?
+    let sexe: Sex?
 }
 
 struct Name: Codable {
@@ -92,10 +92,6 @@ struct Sex: Codable {
    let male: Double
    let female: Double
 }
-
-enum CodingKeys: String, CodingKey {
-     case sex = "sexe"
- }
 
 extension Pokemon {
     var types_colors_hash: [String: Color] {
