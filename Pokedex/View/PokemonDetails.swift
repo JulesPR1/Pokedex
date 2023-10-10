@@ -23,6 +23,8 @@ struct PokemonDetails: View {
     
     @Environment(\.colorScheme) var colorScheme
     
+    @State private var barSelection: String?
+    
     var pokemons: [Pokemon] {
         return (pre_evolutions ?? []) + [pokemon] + (next_evolutions ?? [])
     }
@@ -161,6 +163,8 @@ struct PokemonDetails: View {
         @State var shiny = false
         @State var isLoading = true
         
+        @Environment(\.colorScheme) var colorScheme
+        
         var body: some View {
             ZStack(alignment: .topTrailing) {
                 HStack(alignment: .top) {
@@ -195,8 +199,8 @@ struct PokemonDetails: View {
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(Color.clear)
-                    .foregroundColor(.white)
-                    .border(Color.white)
+                    .foregroundColor(colorScheme == .dark ? .white : .black)
+                    .border(colorScheme == .dark ? .white : .black)
                     .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                     .padding()
                     .offset(x: -8, y: 8)
@@ -280,6 +284,7 @@ struct PokemonDetails: View {
     var stats_list: some View{
         VStack{
             Text("Statistiques :").padding(.bottom).bold().font(.system(size: 20)).underline()
+            
             ScrollView {
                 HStack{
                     LazyVStack(alignment: .center) {
@@ -319,7 +324,63 @@ struct PokemonDetails: View {
                             Text(String(pokemon.stats.vit)).bold()
                         }
                     }
-                }.frame(width: 250)
+                }
+                .frame(width: 250)
+                .padding(.vertical)
+                
+                VStack {
+                    DisclosureGroup {
+                        Chart {
+                            BarMark(x: .value("Stat", "Hp"), y: .value("", pokemon.stats.hp))
+                                .foregroundStyle(Color.green)
+                                .cornerRadius(3)
+                            
+                            
+                            BarMark(x: .value("Stat", "Atk"), y: .value("", pokemon.stats.atk))
+                                .foregroundStyle(Color.red)
+                                .cornerRadius(3)
+                            
+                            BarMark(x: .value("Stat", "Def"), y: .value("", pokemon.stats.def))
+                                .foregroundStyle(Color.orange)
+                                .cornerRadius(3)
+                            
+                            BarMark(x: .value("Stat", "Spe. Atk"), y: .value("", pokemon.stats.spe_atk))
+                                .foregroundStyle(Color.pink)
+                                .cornerRadius(3)
+                            
+                            BarMark(x: .value("Stat", "Spe. Def"), y: .value("", pokemon.stats.spe_def))
+                                .foregroundStyle(Color.yellow)
+                                .cornerRadius(3)
+                            
+                            BarMark(x: .value("Stat", "Vit"), y: .value("", pokemon.stats.vit))
+                                .foregroundStyle(Color.cyan)
+                                .cornerRadius(3)
+                            
+                            if let barSelection {
+                                RuleMark(x: .value("Stat", barSelection))
+                                    .foregroundStyle(.gray.opacity(0.35))
+                                    .zIndex(-10)
+                                    .annotation(
+                                        position: .top,
+                                        spacing: 0,
+                                        overflowResolution: .init(x: .fit, y: .disabled)){
+                                            Text("\(get_selected_value(selection: barSelection)) \(barSelection)")
+                                        }
+                                
+                            }
+                        }
+                        .chartXSelection(value: $barSelection)
+                        .frame(height: 200)
+                        .padding()
+                    } label: {
+                        HStack(alignment: .center) {
+                            Text("Voir le graphique des statistiques")
+                        }
+                    }
+                    .padding(.leading, 40)
+                    .padding(.trailing, 40)
+                }
+                .accentColor(colorScheme == .dark ? .white : .black)
             }
         }.padding(.vertical)
     }
@@ -422,5 +483,26 @@ struct PokemonDetails: View {
                 .scaledToFit()
                 .frame(height: 12)
         }
+    }
+    
+    func get_selected_value(selection: String) -> Int {
+        let selectedStatValue: Int
+        switch barSelection {
+            case "Hp":
+                selectedStatValue = pokemon.stats.hp
+            case "Atk":
+                selectedStatValue = pokemon.stats.atk
+            case "Def":
+                selectedStatValue = pokemon.stats.def
+            case "Spe. Atk":
+                selectedStatValue = pokemon.stats.spe_atk
+            case "Spe. Def":
+                selectedStatValue = pokemon.stats.spe_def
+            case "Vit":
+                selectedStatValue = pokemon.stats.vit
+            default:
+                selectedStatValue = 0
+        }
+        return selectedStatValue
     }
 }
