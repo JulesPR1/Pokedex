@@ -51,6 +51,10 @@ struct PokemonDetails: View {
             VStack {
                 pokemon_image(sprite_regular: pokemon.sprites.regular, sprite_shiny: pokemon.sprites.shiny ?? "", gradient: pokemon.get_gradient())
                 
+                Spacer().frame(height: 50)
+                
+                Divider()
+                
                 HStack(alignment: .bottom){
                     Text(pokemon.name.fr).font(.headline)
                     Text("N° \(pokemon.pokedexId)").font(.caption).foregroundColor(Color.gray)
@@ -176,13 +180,18 @@ struct PokemonDetails: View {
                                     ProgressView().frame(width: 12, height: 12)
                                 }
                             }
+                    }.background{
+                        Ellipse()
+                            .fill(gradient)
+                            .strokeBorder(Color.black, lineWidth: 1)
+                            .frame(width: 350, height: 100)
+                            .offset(y: 120)
                     }
-                    .background(LinearGradient(gradient: gradient, startPoint: .topLeading, endPoint: .bottomTrailing))
-                    .cornerRadius(12)
                 }
                 if (sprite_shiny != nil) {
                     Button(shiny ? "⮐" : "✨") {
                         shiny.toggle()
+                        isLoading = true
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(Color.clear)
@@ -386,7 +395,6 @@ struct PokemonDetails: View {
                         
                     }
                 }
-                
             }
         }
            
@@ -399,10 +407,7 @@ struct PokemonDetails: View {
                     Text("\(last_pokemon.name.fr) GigaMax").foregroundStyle(colorScheme == .dark ? Color.white : Color.black).bold()
                 }
                 
-                pokemon_image(sprite_regular: dynamax_sprites.regular, sprite_shiny: dynamax_sprites.shiny ?? "", gradient: Gradient(colors: [Color.clear, Color.clear])).overlay(
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(Gradient(colors: [Color.red, Color.purple]), lineWidth: 1)
-                )
+                pokemon_image(sprite_regular: dynamax_sprites.regular, sprite_shiny: dynamax_sprites.shiny ?? "", gradient: Gradient(colors: [Color.red, Color.purple]))
             }
         }
     }

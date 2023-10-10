@@ -126,20 +126,8 @@ struct PokemonListView: View {
                         RoundedRectangle(cornerRadius: 16)
                             .stroke(pokemon.get_gradient(), lineWidth: 4)
                     )
-                .overlay(types_badge.alignmentGuide(.leading) { _ in -10 }.alignmentGuide(.top) { _ in -10}, alignment: .topLeading)
-            }.shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.33), radius: 2, x: 0, y: 1.5)
-        }
-        
-        var types_badge: some View {
-            HStack(spacing: 1) {
-                ForEach(pokemon.types, id: \.name) { type in
-                    KFImage(URL(string: type.image))
-                        .resizable()
-                        .frame(width: 0)
-                        .scaledToFit()
-                        .frame(height: 12)
-                }
             }
+            .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.33), radius: 2, x: 0, y: 1.5)
         }
     }
 
