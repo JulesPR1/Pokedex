@@ -47,6 +47,7 @@ Follow these steps to install the Pokédex iOS app on your device:
 To experience the world of Pokémon, run the app on a simulator or a real iOS device with version 17 or higher.
 
 ## Global demo 📲
+(click [here](/README_assets/demo.mov) for a better video quality)
 
 <img src="/README_assets/demo.gif" alt="gen" style="width:250px;"/>
 
@@ -81,10 +82,11 @@ Consult a complete and filterable list of Pokémon from the selected generation.
 Show a specific Pokémon with detailed information. Toggle between regular and shiny sprites with the ✨ button. Explore the Pokémon's evolution chain by clicking on each evolution. The background of the Pokémon's image is automatically determined based on its types.
 
 <img src="/README_assets/p_1.jpg" alt="details" style="width:250px;"/>
-<img src="/README_assets/p_2.png" alt="details" style="width:250px;"/>
-<img src="/README_assets/p_3.gif" alt="details" style="width:250px;"/>
-<img src="/README_assets/p_4.png" alt="details" style="width:250px;"/>
-<img src="/README_assets/p_5.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_2.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_3.jpg" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_4.gif" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_5.png" alt="details" style="width:250px;"/>
+<img src="/README_assets/p_6.jpg" alt="details" style="width:250px;"/>
 
 ## Upcoming Features 🚧
 
