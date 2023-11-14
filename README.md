@@ -2,7 +2,7 @@
 
 ## Introduction 🧑‍💻
 
-This iOS application, powered by the [PokéAPI](https://api-pokemon-fr.vercel.app/), serves as a comprehensive Pokédex, providing detailed information about Pokémon across all 9 generations. Dive into the world of Pokémon with this intuitive and beautifully designed app.
+This iOS application, powered by the [PokéAPI](https://tyradex.vercel.app/), serves as a comprehensive Pokédex, providing detailed information about Pokémon across all 9 generations. Dive into the world of Pokémon with this intuitive and beautifully designed app.
 
 ## Features 🧩
 

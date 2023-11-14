@@ -45,7 +45,7 @@ struct CopyrightModalView: View {
 
                 ScrollView {
                     Text("""
-                    © 2023 [PokéAPI](https://api-pokemon-fr.vercel.app/) créée par Yarkis & Ashzuu (Données provenant de Poképédia & Serebii)
+                    © 2023 [PokéAPI](https://tyradex.vercel.app/) créée par Yarkis & Ashzuu (Données provenant de Poképédia & Serebii)
 
                     © Pokémon et tous les noms respectifs sont des marques déposées de The Pokémon Company International, Game Freak et Nintendo.
                     """)

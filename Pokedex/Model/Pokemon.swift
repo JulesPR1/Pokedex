@@ -118,7 +118,7 @@ extension Pokemon {
     }
     
     static func fetchPokemons(generation: Int, completion: @escaping ([Pokemon]?) -> Void) {
-        guard let url = URL(string: "https://api-pokemon-fr.vercel.app/api/v1/gen/\(generation)") else {
+        guard let url = URL(string: "https://tyradex.vercel.app/api/v1/gen/\(generation)") else {
             completion(nil)
             return
         }
@@ -142,7 +142,7 @@ extension Pokemon {
     }
     
     static func fetchPokemonById(id: Int, completion: @escaping (Result<Pokemon, Error>) -> Void) {
-        guard let url = URL(string: "https://api-pokemon-fr.vercel.app/api/v1/pokemon/\(id)") else {
+        guard let url = URL(string: "https://tyradex.vercel.app/api/v1/pokemon/\(id)") else {
             completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
             return
         }
